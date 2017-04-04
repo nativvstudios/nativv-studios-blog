@@ -1,0 +1,160 @@
+body {
+  background-color: #4b5057;
+}
+
+
+
+.top-bar {
+  border-radius: 2px;
+  background: #7289da;
+  transform: scale(1, 0);
+  -ms-transform: scale(1, 0.7); /* IE 9 */
+  -webkit-transform: scale(1, 0.6); /* Safari and Chrome */
+  -o-transform: scale(1, 0.8); /* Opera */
+  -moz-transform: scale(1, 0.8); /* Firefox */
+}
+.top-bar ul  {
+  background: #3b4461;
+
+}
+
+
+.top-bar-left .name h1 {
+
+  margin-bottom: 5px;
+  margin-left:5px;
+
+}
+.top-bar-right .name h1 {
+  text-align: right;
+}
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:700);
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li.navBar2 {
+
+  -webkit-transform: scale(0.7,1); /* Safari and Chrome */
+
+}
+
+
+li.navBar2 .btn {
+  font-size: 20px;
+  color: #FFF;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+li.navBar2 .btn:before, .btn:after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #FFF;
+}
+li.navBar2 .btn:before {
+  opacity: 0;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  -webkit-transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+li.navBar2 .btn:after {
+  opacity: 0;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+li.navBar2 .btn:hover:before, .btn:hover:after, .btn:focus:before, .btn:focus:after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+li.navBar2 .btn:hover:before, .btn:focus:before {
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+li.navBar2 .btn:hover:after, .btn:focus:after {
+  -webkit-transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+li.navBar2 .btn a:hover {
+    background-color: #475172;
+}
+
+.card
+ {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #272727;
+  border-radius: 2px;
+  width: 50em;
+
+
+  }
+  .card .title
+   {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+   }
+  .card .content
+   {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+   }
+  .card p
+  {
+    margin: 0;
+   }
+  .card .action
+  {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 1.3rem;
+   }
+  .card a
+   {
+    color: #ffab40;
+    margin-right: 1.3rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+   }
+  .card .image
+  {
+    position: relative;
+  }
+    .card .image .title
+    {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 1.3rem;
+      color: #fff;
+    }
+    .card .image img
+    {
+      border-radius: 2px 2px 0 0;
+    }
